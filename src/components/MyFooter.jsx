@@ -3,7 +3,7 @@ import React from "react"
 const MyFooter = (props) => {
   return (
     <footer>
-      <p>Author: Hege Refsnes</p>
+      <p>The React Book Store</p>
       <p>
         <a href="mailto:hege@example.com">hege@example.com</a>
       </p>

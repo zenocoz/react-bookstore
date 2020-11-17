@@ -17,7 +17,7 @@ class App extends React.Component {
       <>
         <MyNav />
         <Home />
-        <Latest title="LATEST RELEASES" genre={this.state.genre[0]} />
+        <Latest title="LATEST RELEASES" genre={this.state.genre[3]} />
         <MyFooter />
       </>
     )
