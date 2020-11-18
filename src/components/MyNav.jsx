@@ -18,11 +18,13 @@ const MyNav = (props) => {
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#link">Link</Nav.Link>
           <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Fantasy</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.1" onClick={props.getBooks()}>
+              Fantasy
+            </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Horror </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">History</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">Sci-Fi</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Romance</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">History</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">
               Separated link
